@@ -69,6 +69,10 @@
 
     > git branch -d nom_branche
 
+## Forcer la suppression d'une branche
+
+    > git branch -D nom_branche
+
 ## Récupérer/fusionner toutes les modifications présentes sur le dépôt distant dans le répertoire de travail local
 
     > git pull
