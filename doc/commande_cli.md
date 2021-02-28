@@ -61,11 +61,11 @@
 
     > git status 
 
-## voir toutes les branches créer et disponible en local
+## Voir toutes les branches créer et disponible en local
 
     > git branch
 
-## supprimer une branche
+## Supprimer une branche
 
     > git branch -d nom_branche
 
@@ -77,19 +77,19 @@
 
     > git pull
 
-## fusionner une branche dans la branche active
+## Fusionner une branche dans la branche active
 
     > git merge nom_branch
 
-## aide à enregistrer les changements qui ne doivent pas être commit immédiatement. C’est un commit temporaire
+## Aide à enregistrer les changements qui ne doivent pas être commit immédiatement. C’est un commit temporaire
 
     > git stash
 
-## afficher des informations sur tout fichier git
+## Afficher des informations sur tout fichier git
 
     > git show
 
-## extraire tous les fichiers du dépôt distant qui ne sont pas actuellement dans le répertoire de travail local
+## Extraire tous les fichiers du dépôt distant qui ne sont pas actuellement dans le répertoire de travail local
 
     > git fetch origin
 
@@ -97,7 +97,7 @@
 
     > git remote -v
 
-### permet à l’utilisateur de connecter le dépôt local à un serveur distant:
+### Permet à l’utilisateur de connecter le dépôt local à un serveur distant:
 
     > git remote add origin xxxx.git
 
@@ -121,7 +121,7 @@
     > git commit --amend 
 
 
-## interface graphique du dépôt local 
+## Interface graphique du dépôt local 
 
     gitk
 
@@ -129,14 +129,14 @@
 
     > git diff
 
-## créer un fichier zip ou tar contenant les composants d’un arbre du dépôt
+## Créer un fichier zip ou tar contenant les composants d’un arbre du dépôt
 
     > git archive --format=tar master
 
 
 ## Annuler / supprimer des commit
 
-### supprimer / annuler un commit précis
+### Supprimer / annuler un commit précis
 
     > git revert XXXX.php 
 
@@ -154,7 +154,7 @@ Puis
 
     > git rm --cached XXXX.php
 
-### peut être utilisé pour supprimer des fichiers de l’index et du répertoire de travail
+### Peut être utilisé pour supprimer des fichiers de l’index et du répertoire de travail
 
     > git rm xxxxx.php
 
@@ -180,11 +180,11 @@ Puis
 
     > ls -l /xxx/xxx/xxx/.ssh/ 
 
-### voir la clé public
+### Voir la clé public
 
     > cat /xxx/xxx/xxx/.ssh/.id_rsa_pub 
 
-### voir la clé privée
+### Voir la clé privée
 
     > cat  /xxx/xxx/xxx/.ssh/.id_rsa
 
